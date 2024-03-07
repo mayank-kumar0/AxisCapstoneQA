@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T18:04:06Z" name="XYZ Bank Application Test Automation Test Suite" finished-at="2024-03-07T18:08:25Z" duration-ms="259136">
+    <groups>
+    </groups>
+    <test started-at="2024-03-07T18:04:06Z" name="XYZ Bank App Test Cases" finished-at="2024-03-07T18:08:25Z" duration-ms="259136">
+      <class name="com.xyz.qa.testcases.CustomerAccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.CustomerAccountPageTest@2a266d09]" started-at="2024-03-07T23:34:21Z" name="setUp" finished-at="2024-03-07T23:34:29Z" duration-ms="8278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomerAccountDetails()[pri:0, instance:com.xyz.qa.testcases.CustomerAccountPageTest@2a266d09]" started-at="2024-03-07T23:34:29Z" name="verifyCustomerAccountDetails" finished-at="2024-03-07T23:34:31Z" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerAccountDetails -->
+      </class> <!-- com.xyz.qa.testcases.CustomerAccountPageTest -->
+      <class name="com.xyz.qa.testcases.ManagerAddCustomerPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.ManagerAddCustomerPageTest@45ca843]" started-at="2024-03-07T23:35:11Z" name="setUp" finished-at="2024-03-07T23:35:22Z" duration-ms="11824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddCustomerAlertMessage()[pri:0, instance:com.xyz.qa.testcases.ManagerAddCustomerPageTest@45ca843]" started-at="2024-03-07T23:35:22Z" name="verifyAddCustomerAlertMessage" finished-at="2024-03-07T23:35:30Z" duration-ms="7879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddCustomerAlertMessage -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.ManagerAddCustomerPageTest@45ca843]" started-at="2024-03-07T23:35:30Z" name="setUp" finished-at="2024-03-07T23:35:44Z" duration-ms="13624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidAddCustomerAlertMessage()[pri:0, instance:com.xyz.qa.testcases.ManagerAddCustomerPageTest@45ca843]" started-at="2024-03-07T23:35:44Z" name="verifyInvalidAddCustomerAlertMessage" finished-at="2024-03-07T23:35:47Z" duration-ms="2997" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.xyz.qa.testcases.ManagerAddCustomerPageTest.verifyInvalidAddCustomerAlertMessage(ManagerAddCustomerPageTest.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidAddCustomerAlertMessage -->
+      </class> <!-- com.xyz.qa.testcases.ManagerAddCustomerPageTest -->
+      <class name="com.xyz.qa.testcases.ManagerOpenAccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.ManagerOpenAccountPageTest@11c9af63]" started-at="2024-03-07T23:35:47Z" name="setUp" finished-at="2024-03-07T23:36:10Z" duration-ms="22591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOpenAccountAlertMessages()[pri:0, instance:com.xyz.qa.testcases.ManagerOpenAccountPageTest@11c9af63]" started-at="2024-03-07T23:36:10Z" name="verifyOpenAccountAlertMessages" finished-at="2024-03-07T23:36:15Z" duration-ms="5396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccountAlertMessages -->
+      </class> <!-- com.xyz.qa.testcases.ManagerOpenAccountPageTest -->
+      <class name="com.xyz.qa.testcases.WithdrawPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.WithdrawPageTest@1d8bd0de]" started-at="2024-03-07T23:34:52Z" name="setUp" finished-at="2024-03-07T23:35:09Z" duration-ms="17126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="withdrawAmount()[pri:0, instance:com.xyz.qa.testcases.WithdrawPageTest@1d8bd0de]" started-at="2024-03-07T23:35:09Z" name="withdrawAmount" finished-at="2024-03-07T23:35:11Z" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawAmount -->
+      </class> <!-- com.xyz.qa.testcases.WithdrawPageTest -->
+      <class name="com.xyz.qa.testcases.DepositPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.DepositPageTest@186f8716]" started-at="2024-03-07T23:34:39Z" name="setUp" finished-at="2024-03-07T23:34:50Z" duration-ms="10340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="depositAmountAndVerifyTransaction()[pri:0, instance:com.xyz.qa.testcases.DepositPageTest@186f8716]" started-at="2024-03-07T23:34:50Z" name="depositAmountAndVerifyTransaction" finished-at="2024-03-07T23:34:52Z" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositAmountAndVerifyTransaction -->
+      </class> <!-- com.xyz.qa.testcases.DepositPageTest -->
+      <class name="com.xyz.qa.testcases.ManagerCustomersPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.ManagerCustomersPageTest@757acd7b]" started-at="2024-03-07T23:36:15Z" name="setUp" finished-at="2024-03-07T23:37:29Z" duration-ms="74073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomerDetailsAndDelete()[pri:0, instance:com.xyz.qa.testcases.ManagerCustomersPageTest@757acd7b]" started-at="2024-03-07T23:37:29Z" name="verifyCustomerDetailsAndDelete" finished-at="2024-03-07T23:37:37Z" duration-ms="8422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerDetailsAndDelete -->
+      </class> <!-- com.xyz.qa.testcases.ManagerCustomersPageTest -->
+      <class name="com.xyz.qa.testcases.TransactionPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.TransactionPageTest@5ab9e72c]" started-at="2024-03-07T23:34:31Z" name="setUp" finished-at="2024-03-07T23:34:38Z" duration-ms="6725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="depositWithdrawAndVerifyTransactions()[pri:0, instance:com.xyz.qa.testcases.TransactionPageTest@5ab9e72c]" started-at="2024-03-07T23:34:38Z" name="depositWithdrawAndVerifyTransactions" finished-at="2024-03-07T23:34:39Z" duration-ms="1824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositWithdrawAndVerifyTransactions -->
+      </class> <!-- com.xyz.qa.testcases.TransactionPageTest -->
+      <class name="com.xyz.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.LoginPageTest@50caa560]" started-at="2024-03-07T23:34:06Z" name="setUp" finished-at="2024-03-07T23:34:14Z" duration-ms="8274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerLoginTest()[pri:0, instance:com.xyz.qa.testcases.LoginPageTest@50caa560]" started-at="2024-03-07T23:34:14Z" name="customerLoginTest" finished-at="2024-03-07T23:34:16Z" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLoginTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.LoginPageTest@50caa560]" started-at="2024-03-07T23:34:16Z" name="setUp" finished-at="2024-03-07T23:34:21Z" duration-ms="5042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.xyz.qa.testcases.LoginPageTest@50caa560]" started-at="2024-03-07T23:34:21Z" name="loginPageTitleTest" finished-at="2024-03-07T23:34:21Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyz.qa.testcases.LoginPageTest@50caa560]" started-at="2024-03-07T23:37:37Z" name="setUp" finished-at="2024-03-07T23:38:18Z" duration-ms="40947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:com.xyz.qa.testcases.LoginPageTest@50caa560]" started-at="2024-03-07T23:38:18Z" name="loginTest" finished-at="2024-03-07T23:38:25Z" duration-ms="6870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.xyz.qa.testcases.LoginPageTest -->
+    </test> <!-- XYZ Bank App Test Cases -->
+  </suite> <!-- XYZ Bank Application Test Automation Test Suite -->
+</testng-results>

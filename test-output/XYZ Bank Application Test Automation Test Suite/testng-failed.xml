@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XYZ Bank Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="XYZ Bank App Test Cases(failed)">
+    <classes>
+      <class name="com.xyz.qa.testcases.ManagerAddCustomerPageTest">
+        <methods>
+          <include name="verifyInvalidAddCustomerAlertMessage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.ManagerAddCustomerPageTest -->
+    </classes>
+  </test> <!-- XYZ Bank App Test Cases(failed) -->
+</suite> <!-- Failed suite [XYZ Bank Application Test Automation Test Suite] -->
